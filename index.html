@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" data-bs-theme="dark">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><strong>ResidenciApp</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Administradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Residentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item dropdown ms-5">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Acceso
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
+                  <li><a class="dropdown-item" href="#">Registrarse</a></li>                  
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!--Carrusel-->
+      <div class="container-fluid bg-primary-subtle bg-gradiente text-primary-emphasis">
+        <div class="row">
+            <div class="col-sm-6 text-primary text-center" style=" padding-top:10%;"><h1><strong>ResidenciApp</strong></h1> <br> <h2><strong>!La vida en tu comunidad, todo en una sola aplicación¡</strong></h2></div>
+          <div class="col-md-6"> <!-- Aquí se especifica que el carrusel ocupará la mitad del ancho en pantallas medianas -->
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner" style="max-height:550px; overflow: hidden;">
+                <div class="carousel-item active">
+                  <img src="Imágenes/img3.jpg" class="d-block w-100" style="object-fit: contain; max-height: 550px;" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Imágenes/img2.jpg" class="d-block w-100" style="object-fit: contain; max-height: 550px;" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Imágenes/img1.jpg" class="d-block w-100" style="object-fit: contain; max-height: 550px;" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="Imágenes/constructora1.png" alt="image" height="100" width="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2" style="padding-top:3%;"><img src="Imágenes/constructora2.jpg" alt="image" height="40" width="100" ></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="Imágenes/constructora3.png" alt="image" height="100" width="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="Imágenes/constructora4.jpg" alt="image" height="100" width="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="Imágenes/constructora5.png" alt="image" height="100" width="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="Imágenes/constructora6.jpg" alt="image" height="100" width="100"></div>
+            <h2 class="text-center">ACERCA DE</h2>
+            <div class="row">
+                <div class="col">ResidenciApp es una aplicación diseñada para simplificar la gestión y administración de conjuntos residenciales y edificios bajo el régimen de propiedad horizontal. Con ResidenciApp, los administradores, residentes y personal de portería/recepción pueden acceder a una plataforma integral que facilita la organización y el control.</div>
+                <div class="col">Somos un equipo de tres estudiantes de ingeniería de software de la Universidad Uninpahu, apasionados por la innovación y el desarrollo de soluciones tecnológicas. Nos hemos unido para crear ResidenciaApp, una aplicación diseñada para mejorar la gestión y administración de propiedad horizontal.</div>
+            </div>                
+        </div>
+
+      </div>
+      <!--Tarjetas-->
+      <div class="container mt-5">
+        <div class="row ">
+            <div class="col">
+                <div class="card" style="width: 18rem; background-color: #C3CAFA">
+                    <div class="text-center">
+                        <img src="Imágenes/user1.png" class="rounded-pill border border-primary-subtle bg-light" alt="image" height="200" width="200">
+                    </div>                    
+                    <div class="card-body">
+                      <h5 class="card-title; text-center">Administrador</h5>
+                      <p class="card-text">Administra fácilmente tu comunidad con nuestra aplicación:</p>
+                      <ul class="card-text">
+                        <li>Comunicación efectiva</li>
+                        <li>Gestión de mantenimiento</li>
+                        <li>Control de acceso seguro</li>                        
+                      </ul>
+                      <a href="#" class="btn btn-outline-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem; background-color: #C3CAFA">
+                    <div class="text-center">
+                        <img src="Imágenes/user2.png" class="rounded-pill border border-primary-subtle bg-light" alt="image" height="200" width="200">
+                    </div> 
+                    <div class="card-body">
+                        <h5 class="card-title; text-center">Operativo</h5>
+                        <p class="card-text">Simplifica la gestión operativa de tu unidad:</p>
+                        <ul class="card-text">
+                          <li>Control de visitantes</li>
+                          <li>Control de parqueaderos</li>
+                          <li>Notificaciones en tiempo real</li>                          
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary">Más información</a>
+                      </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;  background-color: #C3CAFA">
+                    <div class="text-center">
+                        <img src="Imágenes/user3.png" class="rounded-pill border border-primary-subtle bg-light" alt="image" height="200" width="200">
+                    </div> 
+                    <div class="card-body">
+                        <h5 class="card-title; text-center">Comunidad</h5>
+                        <p class="card-text">Una solución completa para tu comunidad:</p>
+                        <ul class="card-text">
+                          <li>Pagos en línea</li>
+                          <li>Reporte de incidencias</li>
+                          <li>Reserva de áreas comunes</li>                          
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary">Más información</a>
+                      </div>
+                </div>
+            </div>
+        </div>        
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+</body>
+</html>
